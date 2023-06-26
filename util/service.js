@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 exports.conn = mysql.createConnection({
-    host:'127.0.0.1',
+    host:'https://mycablenetworksite.com/',
     user:'root',
     password:'',
     database:'cable',
